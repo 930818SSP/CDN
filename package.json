@@ -1,0 +1,97 @@
+{
+  "_from": "git+ssh://git@owngit.dalongyun.com:shupingshen/customdevelopment.git",
+  "_id": "@ssp/customdevelopment@0.1.2",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/@ssp/customdevelopment",
+  "_phantomChildren": {
+    "@webassemblyjs/ast": "1.9.0",
+    "@webassemblyjs/helper-module-context": "1.9.0",
+    "@webassemblyjs/wasm-edit": "1.9.0",
+    "@webassemblyjs/wasm-parser": "1.9.0",
+    "acorn": "6.4.2",
+    "ajv": "6.12.5",
+    "ajv-errors": "1.0.1",
+    "ajv-keywords": "3.5.2",
+    "cacache": "15.0.5",
+    "chrome-trace-event": "1.0.2",
+    "commondir": "1.0.1",
+    "enhanced-resolve": "4.3.0",
+    "eslint-scope": "4.0.3",
+    "json-parse-better-errors": "1.0.2",
+    "loader-runner": "2.4.0",
+    "loader-utils": "1.4.0",
+    "memory-fs": "0.4.1",
+    "micromatch": "3.1.10",
+    "mkdirp": "0.5.5",
+    "neo-async": "2.6.2",
+    "node-libs-browser": "2.2.1",
+    "schema-utils": "2.7.1",
+    "serialize-javascript": "4.0.0",
+    "tapable": "1.1.3",
+    "terser-webpack-plugin": "1.4.5",
+    "watchpack": "1.7.4",
+    "webpack-sources": "1.4.3"
+  },
+  "_requested": {
+    "type": "git",
+    "raw": "git+ssh://git@owngit.dalongyun.com:shupingshen/customdevelopment.git",
+    "rawSpec": "git+ssh://git@owngit.dalongyun.com:shupingshen/customdevelopment.git",
+    "saveSpec": "git+ssh://git@owngit.dalongyun.com:shupingshen/customdevelopment.git",
+    "fetchSpec": "git@owngit.dalongyun.com:shupingshen/customdevelopment.git",
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git+ssh://git@owngit.dalongyun.com:shupingshen/customdevelopment.git#82212f0a609948b1a9b365b38e08e34b1d28e3ed",
+  "_spec": "git+ssh://git@owngit.dalongyun.com:shupingshen/customdevelopment.git",
+  "_where": "D:\\newGit\\流桌面\\customDevelopment\\performanceOptimization",
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ],
+  "bundleDependencies": false,
+  "dependencies": {
+    "axios": "^0.19.2",
+    "compression-webpack-plugin": "^4.0.1",
+    "core-js": "^3.6.5",
+    "less": "^3.12.2",
+    "less-loader": "^5.0.0",
+    "lib-flexible": "^0.3.2",
+    "postcss-px2rem-exclude": "0.0.6",
+    "vant": "^2.10.8",
+    "vue": "^2.6.11",
+    "vue-router": "^3.4.3",
+    "vuex": "^3.5.1",
+    "webpack": "^4.44.2"
+  },
+  "deprecated": false,
+  "description": "```\r npm install\r ```",
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "crypto-js": "^4.0.0",
+    "node-sass": "^4.14.1",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "main": "dist/custom-development.umd.min.js",
+  "name": "@ssp/customdevelopment",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git@owngit.dalongyun.com:shupingshen/customdevelopment.git"
+  },
+  "scripts": {
+    "build": "vue-cli-service build --mode production",
+    "build-dev-package": "vue-cli-service build --mode dev --target lib --name custom-development ./src/index.js",
+    "build-package": "vue-cli-service build --target lib --name custom-development ./src/index.js",
+    "build-pre": "vue-cli-service build --mode pre",
+    "build-test": "vue-cli-service build --mode test",
+    "lint": "vue-cli-service lint",
+    "serve": "vue-cli-service serve --mode dev"
+  },
+  "version": "0.1.2"
+}
